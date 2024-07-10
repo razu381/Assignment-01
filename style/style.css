@@ -47,6 +47,7 @@ section{
     font-size: 20px;
     font-weight: 600;
     border: 1px solid #0D1321;
+    border-radius: 8px;
     padding: 17px 24px;
     text-align: center;
     text-decoration: none;
@@ -125,6 +126,7 @@ header > nav > h3{
 
 .reasons-container h2,.reasons-container p,.reasons-container a{
     opacity: 70%;
+    border-radius: 0;
 }
 
 .reasons-container h2 {
@@ -146,7 +148,7 @@ header > nav > h3{
 
 .my-inspiration div{
     padding: 32px;
-    border: 1px solid #0D1321;
+    border: 1px solid #0d132152;
     border-radius: 16px;
 }
 
