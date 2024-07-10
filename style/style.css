@@ -222,7 +222,7 @@ header > nav > h3{
 
 /* start of call to action form */
 .cta-form{
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -237,18 +237,48 @@ header > nav > h3{
 }
 
 .cta-form .form-title{
+    text-align: center;
     color: white;
     font-size: 32px;
     font-weight: 700;
 }
 
 .cta-form .form-desc{
+    padding: 10px 20%;
+    text-align: center;
     color: white;
     opacity: 70%;
 }
 
+.cta-form form{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .cta-form form input[type="text"]{
+    font-family: "Azeret Mono", monospace;
     height: 57px;
-    width: 100%;
+    width: 548px;
+    padding: 0 20px;
+    border: none;
     background-color: white;
+    border-radius: 8px;
+}
+
+.cta-form form input[type="submit"]{
+    font-family: "Azeret Mono", monospace;
+    display: inline-block;
+    padding: 18px 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+::placeholder{
+    font-size: 16px;
+    opacity: 70%;
 }
