@@ -22,6 +22,8 @@ main{
 section{
     padding: 80px 0;
 }
+
+
 /* Common styles */
 
 .section-title{
@@ -121,7 +123,7 @@ header > nav > h3{
     flex: 1;
 }
 
-.reasons-container h2,p,a{
+.reasons-container h2,.reasons-container p,.reasons-container a{
     opacity: 70%;
 }
 
@@ -150,4 +152,103 @@ header > nav > h3{
 
 .my-inspiration iframe{
     border-radius: 16px;
+}
+
+
+/* My current goal section */
+.tech-cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.tech-cards-container .tech-card-1,.tech-cards-container .tech-card-2,.tech-cards-container .tech-card-3{
+    flex: 1;
+    margin-right: 24px;
+    padding: 40px;
+}
+
+.tech-cards-container .tech-card h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.tech-cards-container .tech-card p{
+    color: #0D1321;
+    opacity: 1;
+}
+
+.tech-cards-container  a{
+    font-weight: 800;
+    color: #0D1321;
+}
+
+
+.tech-cards-container .tech-card-1{
+    background-color: rgba(255, 76, 30, .05);
+}
+.tech-cards-container .tech-card-2{
+    background-color: rgba(0, 76, 232, .05);
+}
+.tech-cards-container .tech-card-3{
+    background-color: rgba(255, 233, 0, .05);
+}
+
+
+/* start of next target */
+
+.next-target-card{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.next-target-card-content{
+    margin-left: 24px;
+}
+
+.next-target-card-content h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.next-target-card-content a{
+    font-weight: 700;
+    color: #0D1321;
+}
+
+
+/* start of call to action form */
+.cta-form{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 16px;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-form .form-title{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cta-form .form-desc{
+    color: white;
+    opacity: 70%;
+}
+
+.cta-form form input[type="text"]{
+    height: 57px;
+    width: 100%;
+    background-color: white;
 }
